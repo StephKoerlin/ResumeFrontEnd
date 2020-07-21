@@ -9,4 +9,3 @@ Includes:
 - 404.html - a 404 error page if something fails
 - 404.css - the styling for my 404 page so that it matches my resume
 - visitor_count.js - the javascript used to retrieve updated visitor numbers from my API
-
