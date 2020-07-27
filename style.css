@@ -110,6 +110,17 @@ dd.clear {
     height: 15px;
     }
 
+la {
+    color: #eb5757;
+    text-decoration: none;
+    border-bottom: 1px dotted #eb5757;
+    }
+
+la:hover {
+    border-bottom-style: solid;
+    color: #6c68d4;
+    }
+
 footer {
     text-align: center;
     }
