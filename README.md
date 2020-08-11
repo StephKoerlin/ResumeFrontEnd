@@ -1,4 +1,4 @@
-#Front End Resources
+# Front End Resources
 
 These are the resources used for the front end of my resume website. They are hosted in an S3 bucket on AWS and through GitHub Actions they are updated if I make any changes. 
 
@@ -8,3 +8,4 @@ Includes:
 - 404.html - a 404 error page if something fails
 - 404.css - the styling for my 404 page so that it matches my resume
 - visitor_count.js - the javascript used to retrieve updated visitor numbers from my API
+- .github folder - contains the action to update the S3 bucket and invalidate CloudFront when done
