@@ -37,7 +37,7 @@ h1 {
 
 h2 {
     font-size: 20px;
-    margin: 0 0 6px 0;
+    margin: 0 0 6px;
     position: relative;
     color: #ffffff;
     }
@@ -75,7 +75,7 @@ ul {
     }
 
 #objective {
-    width: 500px;
+    width: 1000px;
     float: left;
     }
 
@@ -92,7 +92,7 @@ dt {
     font-size: 18px;
     text-align: right;
     padding: 0 20px 0 0;
-    width: 250px;
+    width: 125px;
     float: left;
     height: 100%;
     border-right: 1px solid #eb5757;
@@ -100,7 +100,7 @@ dt {
     }
 
 dd {
-    width: 600px;
+    width: 775px;
     float: left;
     padding: 0 20px 0;
     color: #ffffff;

@@ -8,119 +8,113 @@
 </head>
 
 <body>
-<!--<div>-->
-<!--    <img src="images/glasses.png" alt="Stephanie" id="pic"/>-->
-<!--</div>-->
+    <div id="page-wrap">
+        <div id="contact-info" class="vcard">
+            <h1 class="fn">Stephanie Koerlin</h1>
+            <img src="images/glasses.png" alt="Stephanie" id="pic"/>
+            <!-- Microformats! -->
+            <p>
+                Cell: <span class="p-tel">720-272-3923</span>
+                <br/>
+                Email: <a class="u-email" href="mailto:stephanie.koerlin@gmail.com">stephanie.koerlin@gmail.com</a>
+                <br/>
+                LinkedIn: <a class="u-url" href="https://www.linkedin.com/in/stephaniekoerlin/">Stephanie Koerlin</a>
+                <br/>
+                GitHub: <a class="u-url" href="https://github.com/StephKoerlin">StephKoerlin</a>
+                <br/>
+                Blog: <a class="u-url" href="http://blog.stephaniekoerlin.com">Seeking IT</a>
+            </p>
+        </div>
 
-<div id="page-wrap">
-    <div id="contact-info" class="vcard">
-        <h1 class="fn">Stephanie Koerlin</h1>
-        <img src="images/glasses.png" alt="Stephanie" id="pic"/>
-        <!-- Microformats! -->
-        <p>
-            Cell: <span class="p-tel">720-272-3923</span>
-            <br/>
-            Email: <a class="u-email" href="mailto:stephanie.koerlin@gmail.com">stephanie.koerlin@gmail.com</a>
-            <br/>
-            LinkedIn: <a class="u-url" href="https://www.linkedin.com/in/stephaniekoerlin/">Stephanie Koerlin</a>
-            <br/>
-            GitHub: <a class="u-url" href="https://github.com/StephKoerlin">StephKoerlin</a>
-            <br/>
-            Blog: <a class="u-url" href="http://blog.stephaniekoerlin.com">Seeking IT</a>
-        </p>
+        <div id="objective">
+            <p>
+                After years of working customer service in retail and banking, I am ready for a new challenge. Through IT, I am inspired
+                to learn and grow more than ever before. I am dedicated to the pursuit of this knowledge and have already made
+                significant leaps since beginning this journey. My passion has been cloud architecture and DevOps practices.
+            </p>
+        </div>
+
+        <div class="clear"></div>
+        <dl>
+            <dd class="clear"></dd>
+            <dt>Skills</dt>
+            <dd>
+                <h2>Certifications</h2>
+                <p>AWS Certified Solutions Architect - Associate <a class="u-url" href="https://www.youracclaim.com/badges/cbae8221-e6bb-4882-a9be-f5dce7b66cc8/linked_in">Verify</a></p>
+
+                <h2>Software and Languages</h2>
+                <p>Linux, Terraform, IntelliJ, Python, HTML, CSS, JavaScript, Ansible</p>
+            </dd>
+
+            <dd class="clear"></dd>
+            <dt>Projects</dt>
+            <dd>
+                <h2>Cloud Resume Challenge<span>July 2020</span></h2>
+                <p>Took a 2.5 week deep dive implementing an online resume and personal blog to learn DevOps principals and technologies</p>
+                <p><a class="u-url" href="https://cloudresumechallenge.dev/instructions">Link to Challenge</a></p>
+                <ul>
+                    <li>Scripted and modified HTML and CSS for my front end elements to showcase my own style</li>
+                    <li>Terraformed S3 for static website hosting, CloudFront for distribution and Route53 for directing traffic to the S3 bucket</li>
+                    <li>Wrote JavaScript to run an API call that would update and post the current visitor count</li>
+                    <li>Utilized API Gateway and Lambda to call and run a Python script to increment the count</li>
+                    <li>Stored current visitor count in DynamoDB</li>
+                    <li>Secured sensitive variables through Terraform Cloud so variable file did not need to be exposed</li>
+                    <li>Implemented CI/CD pipeline for the front-end using GitHub Actions that update the files and invalidate the CloudFront distribution when changes are made</li>
+                    <li>Implemented CI/CD pipeline for the back-end using GitHub Actions that run a file using PyTest for my Lambda counter and then, if passed, applies Terraform</li>
+                </ul>
+                <p>Above and beyond requirements</p>
+                <ul>
+                    <li>Hosted my blog using AWS free tier resources to reduce costs</li>
+                    <li>Utilized EC2 for running the Ghost application which hosts the blog</li>
+                    <li>Created security groups to allow web traffic from the internet and SSH from a locked down IP </li>
+                    <li>Employed Ansible for formatting and mounting EBS volume to EC2 instance for automated data backups</li>
+                    <li>To aid in disaster recovery all resources were deployed and managed by Infrastructure-as-Code</li>
+                </ul>
+            </dd>
+
+            <dd class="clear"></dd>
+            <dt>Experience</dt>
+            <dd>
+                <h2>U.S. Bank <span>Branch Manager/Universal Banker | May 2014-March 2020</span></h2>
+                <ul>
+                    <li>Processed transactions, loan request and account openings</li>
+                    <li>Provided exceptional customer service through customer obsession program</li>
+                    <li>Mentored new hires through a 9 week on-boarding</li>
+                    <li>Maintained daily operations adhering to compliance standards</li>
+                    <li>Scheduled meetings and coaching for my staff as well as that of the district</li>
+                    <li>Managed multiple tasks and deadlines simultaneously</li>
+                </ul>
+
+                <h2>Target <span>Guest Service Team Lead/Electronics | October 2012-May 2014</span></h2>
+                <ul>
+                    <li>Consistently ranked the top manager in sales and customer conversion through target red cards</li>
+                    <li>Lead a team of cashiers and customer service representatives to top five ranked target stores in the district</li>
+                    <li>Inspired the entire store staff as the manager on duty</li>
+                </ul>
+            </dd>
+
+            <dd class="clear"></dd>
+            <dt>Education</dt>
+            <dd>
+                <h2>Academy of Art University</h2>
+                <p><strong>Degree Earned:</strong> Bachelor of Fine Art<br />
+                    <strong>Date Earned:</strong> December 2012<br />
+                    <strong>Focus:</strong> Visual Effects, Particles and Dynamics<br />
+                    <strong>Location:</strong> San Francisco, CA</p>
+            </dd>
+
+            <dd class="clear"></dd>
+            <dt>Hobbies</dt>
+            <dd>Video Games, Calligraphy, Working Out </dd>
+
+            <dd class="clear"></dd>
+
+            <dd class="clear"></dd>
+            <dt> </dt>
+        </dl>
+        <div class="clear"></div>
+
     </div>
-
-    <div id="objective">
-        <p>
-            I am a new IT professional. I have years of experience in sales both in retail and banking but have made big changes.
-            I was always the resident tech solver at my previous jobs. Trouble shooting my office's issues and often working through many
-            steps before finally breaking down and calling tech support. This often surprised the person on the other line and made me
-            realize how much I love being a part of new technology and learning about everything it can offer. I love coding in college
-            and problem solving has always been in my blood. The tech field has allowed me to be surprised and delighted daily. I have
-            been studying AWS after work when I could but finally just decided to go all in. I recently completed a project called the
-            Cloud Resume Challenge and it gave me a huge boost in confidence. I have learned many things along the way from google as
-            well as the amazing tech community.
-        </p>
-    </div>
-
-    <div class="clear"></div>
-    <dl>
-        <dd class="clear"></dd>
-        <dt>Skills</dt>
-        <dd>
-            <h2>Certifications</h2>
-            <p>AWS Certified Solutions Architect - Associate <a class="u-url" href="https://www.youracclaim.com/badges/cbae8221-e6bb-4882-a9be-f5dce7b66cc8/linked_in">Verify<a/> </p>
-
-            <h2>Software and Languages</h2>
-            <p>Linux, Terraform, IntelliJ, Python, HTML, CSS</p>
-        </dd>
-
-        <dd class="clear"></dd>
-        <dt>Projects</dt>
-        <dd>
-            <h2>Cloud Resume Challenge<span>July 2020</span></h2>
-            <ul>
-                <li> <a class="u-url" href="https://cloudresumechallenge.dev/instructions">Link to Challenge</a> </li>
-                <li>Crafted my personal resume site utilizing AWS services</li>
-                <li>Challenged my knowledge by using linux command line for installing programs, modifying files, git and anything else I could think of</li>
-                <li>Scripted and modified HTML and CSS for my front end elements to showcase my own style</li>
-                <li>Terraformed S3, CloudFormation and Route53 for hosting the resume site statically</li>
-                <li>Above and beyond requirements: Terraformed the resources to host my own blog making use of EC2, security groups and EBS</li>
-                <li>Combined Lambda, DynamoDB and API Gateway to create visitor counter</li>
-                <li>Terraformed the back end resources for running the visitor count</li>
-                <li>Implemented CI/CD through GitHub Actions and python testing</li>
-            </ul>
-        </dd>
-
-        <dd class="clear"></dd>
-        <dt>Experience</dt>
-        <dd>
-            <h2>U.S. Bank <span>Branch Manager/Universal Banker | May 2014-March 2020</span></h2>
-            <ul>
-                <li>Processed transactions, loan request and account openings</li>
-                <li>Provided exceptional customer service through customer obsession program</li>
-                <li>Mentored new hires through a 9 week on-boarding</li>
-                <li>Maintained daily operations adhering to compliance standards</li>
-                <li>Provided administrative support through scheduling and coaching for my staff as well as that of the district</li>
-                <li>Managed multiple tasks and deadlines simultaneously</li>
-                <li>Organized and scheduled meetings</li>
-                <li>Performed general human resource tasks such as payroll, performance and discipline management</li>
-                <li>Provided district support through preparing reports</li>
-            </ul>
-
-            <h2>Target <span>Guest Service Team Lead/Electronics | October 2012-May 2014</span></h2>
-            <ul>
-                <li>Consistently ranked the top manager in sales and customer conversion through target red cards</li>
-                <li>Lead a team of cashiers and customer service representatives to top five ranked target stores in the district</li>
-                <li>Inspired the entire store staff as the manager on duty</li>
-                <li>Exemplified a customer experience that was smooth and free of problems</li>
-                <li>Always ranked top employee in cross selling complimentary products</li>
-                <li>Easily ranked in the top five for customer satisfaction scores in the district</li>
-            </ul>
-        </dd>
-
-        <dd class="clear"></dd>
-        <dt>Education</dt>
-        <dd>
-            <h2>Academy of Art University</h2>
-            <p><strong>Degree:</strong> Bachelor of Fine Art<br />
-                <strong>Focus:</strong> Visual Effects, Particles and Dynamics</p>
-        </dd>
-
-        <dd class="clear"></dd>
-        <dt>Hobbies</dt>
-        <dd>Video Games, Calligraphy, Working Out </dd>
-
-        <dd class="clear"></dd>
-
-        <dd class="clear"></dd>
-        <dt> </dt>
-
-    </dl>
-    <div class="clear"></div>
-
-</div>
-
 </body>
 
 <footer>
